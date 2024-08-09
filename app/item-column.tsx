@@ -6,5 +6,5 @@ interface ItemColumnProps {
 }
 
 export default function ItemColumn({ children }: ItemColumnProps) {
-  return <div className="w-1/3">{children}</div>;
+  return <div className="w-[25vw] flex flex-col gap-4">{children}</div>;
 }

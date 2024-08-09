@@ -12,7 +12,7 @@ export default function Commands({
   children,
 }: CommandsProps) {
   return (
-    <div className="bg-gray-700 p-4 text-white rounded-md">
+    <div className="bg-gray-700 p-4 text-white rounded-md w-full">
       <h2 className="mb-4">{title}</h2>
       <p>{description}</p>
       {children}
